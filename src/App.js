@@ -7,6 +7,7 @@ const resource = createResource();
 function App() {
   return (
     <div className="App">
+      <div>Another random</div>
       <Suspense fallback={<h1>loading person...</h1>}>
         <Person resource={resource} />
       </Suspense>
